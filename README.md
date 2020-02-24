@@ -2,12 +2,9 @@
 
 ** GPT
 
-#+BEGIN_SRC sh :results verbatim :exports both
+```
 ~/local/snap/bin/gpt --diag
-#+END_SRC
 
-#+RESULTS:
-#+begin_example
 SNAP Release version 7.0
 SNAP home: /home/kdm/local/snap/bin//..
 SNAP debug: null
@@ -25,4 +22,4 @@ Edit snap/bin/gpt.vmoptions
 
 To configure your gpt cache size and parallelism:
 Edit .snap/etc/snap.properties or gpt -c ${cachesize-in-GB}G -q ${parallelism} 
-#+end_example
+```
