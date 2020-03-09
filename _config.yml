@@ -88,8 +88,8 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=Mt24kfgAAAAJ&hl=en"
   email            : "bav@geus.dk"
   researchgate     :  "https://www.researchgate.net/profile/Baptiste_Vandecrux2"
-  github           : "https://github.com/BaptisteVandecrux/"
-  linkedin         : "https://www.linkedin.com/in/baptiste-vandecrux-962bba40/?locale=en_US"
+  github           : "BaptisteVandecrux/"
+  linkedin         : "baptiste-vandecrux-962bba40/?locale=en_US"
   orcid            : "https://orcid.org/0000-0002-4169-8973"
   wikipedia        :
 
@@ -164,6 +164,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  datasets:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -219,6 +222,14 @@ defaults:
       type: talks
     values:
       layout: talk
+      author_profile: true
+      share: true
+  # _datasets
+  - scope:
+      path: ""
+      type: datasets
+    values:
+      layout: single
       author_profile: true
       share: true
 
