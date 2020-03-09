@@ -25,17 +25,9 @@ import os
 import re
 
 #todo: incorporate different collection types rather than a catch all publications, requires other changes to template
-publist = {
-    "proceeding": {
-        "file" : "proceedings.bib",
-        "venuekey": "booktitle",
-        "venue-pretext": "In the proceedings of ",
-        "collection" : {"name":"publications",
-                        "permalink":"/publication/"}
-        
-    },
+publist = {        
     "journal":{
-        "file": "pubs.bib",
+        "file": "citations.bib",
         "venuekey" : "journal",
         "venue-pretext" : "",
         "collection" : {"name":"publications",
@@ -100,7 +92,7 @@ for pubsource in publist:
 
             #citation authors - todo - add highlighting for primary author?
             for author in bibdata.entries[bib_id].persons["author"]:
-                citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
+                citation = citation+" "+author.last_names[0]+" "+author.first_names[0][0]+", "
 
             #citation title
             citation = citation + "\"" + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + ".\""
@@ -124,6 +116,10 @@ for pubsource in publist:
                 if len(str(b["note"])) > 5:
                     md += "\nexcerpt: '" + html_escape(b["note"]) + "'"
                     note = True
+                else:
+                    md += "\nexcerpt: '" + " " + "'"
+            else:
+                md += "\nexcerpt: '" + " " + "'"
 
             md += "\ndate: " + str(pub_date) 
 
@@ -134,7 +130,10 @@ for pubsource in publist:
                 if len(str(b["url"])) > 5:
                     md += "\npaperurl: '" + b["url"] + "'"
                     url = True
-
+                else:
+                    md += "\npaperurl: '" + " " + "'"
+            else:
+                md += "\npaperurl: '" + " " + "'"
             md += "\ncitation: '" + html_escape(citation) + "'"
 
             md += "\n---"
