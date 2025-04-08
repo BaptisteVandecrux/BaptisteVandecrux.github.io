@@ -8,4 +8,4 @@ venue: 'GEUS Dataverse'
 paperurl: 'https://dataverse.geus.dk/citation?persistentId=doi:10.22008/FK2/9QEOWZ'
 citation: ' Vandecrux B,  Box J,  Ahlstrøm A,  Fausto R,  Karlsson N,  Rutishauser A,  Citterio M,  Larsen S,  Heuer J,  Solgaard A,  How P,  Colgan W,  Fahrner D, &quot;GEUS snow and firn data in Greenland.&quot; GEUS Dataverse, 2023.'
 ---
-[Access dataset here](https://dataverse.geus.dk/citation?persistentId=doi:10.22008/FK2/9QEOWZ){:target="_blank"}
+[Access paper here](https://dataverse.geus.dk/citation?persistentId=doi:10.22008/FK2/9QEOWZ){:target="_blank"}

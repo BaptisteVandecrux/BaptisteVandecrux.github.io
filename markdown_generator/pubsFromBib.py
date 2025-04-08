@@ -1,21 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # Publications markdown generator for academicpages
-# 
-# Takes a set of bibtex of publications and converts them for use with [academicpages.github.io](academicpages.github.io). This is an interactive Jupyter notebook ([see more info here](http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html)). 
-# 
-# The core python code is also in `pubsFromBibs.py`. 
-# Run either from the `markdown_generator` folder after replacing updating the publist dictionary with:
-# * bib file names
-# * specific venue keys based on your bib file preferences
-# * any specific pre-text for specific files
-# * Collection Name (future feature)
-# 
-# TODO: Make this work with other databases of citations, 
-# TODO: Merge this with the existing TSV parsing solution
-
-
 from pybtex.database.input import bibtex
 import pybtex.database.input.bibtex 
 from time import strptime
@@ -27,13 +12,23 @@ import re
 #todo: incorporate different collection types rather than a catch all publications, requires other changes to template
 publist = {        
     "journal":{
-        "file": "citations.bib",
+        "file": "my_pubs.bib",
         "venuekey" : "journal",
         "venue-pretext" : "",
         "collection" : {"name":"publications",
                         "permalink":"/publication/"}
     } 
 }
+
+# publist = {        
+#     "journal":{
+#         "file": "my_datasets.bib",
+#         "venuekey" : "publisher",
+#         "venue-pretext" : "",
+#         "collection" : {"name":"datasets",
+#                         "permalink":"/datasets/"}
+#     } 
+# }
 
 html_escape_table = {
     "&": "&amp;",
@@ -84,9 +79,9 @@ for pubsource in publist:
             url_slug = re.sub("\\[.*\\]|[^a-zA-Z0-9_-]", "", clean_title)
             url_slug = url_slug.replace("--","-")
 
-            md_filename = (str(pub_date) + "-" + url_slug + ".md").replace("--","-")
             html_filename = (str(pub_date) + "-" + url_slug).replace("--","-")
-
+            html_filename = html_filename[:50]
+            md_filename = html_filename + ".md"
             #Build Citation from text
             citation = ""
 
@@ -140,20 +135,23 @@ for pubsource in publist:
 
             
             ## Markdown description for individual page
+            col = publist[pubsource]["collection"]["name"]
+
             if note:
                 md += "\n" + html_escape(b["note"]) + "\n"
 
             if url:
-                md += "\n[Access paper here](" + b["url"] + "){:target=\"_blank\"}\n" 
+                md += f"\n[Access {col[:-1]} here](" + b["url"] + "){:target=\"_blank\"}\n" 
             else:
                 md += "\nUse [Google Scholar](https://scholar.google.com/scholar?q="+html.escape(clean_title.replace("-","+"))+"){:target=\"_blank\"} for full citation"
 
             md_filename = os.path.basename(md_filename)
 
-            with open("../_publications/" + md_filename, 'w') as f:
+            with open(f"../_{col}/" + md_filename, 'w') as f:
                 f.write(md)
             print(f'SUCESSFULLY PARSED {bib_id}: \"', b["title"][:60],"..."*(len(b['title'])>60),"\"")
         # field may not exist for a reference
         except KeyError as e:
-            print(f'WARNING Missing Expected Field {e} from entry {bib_id}: \"', b["title"][:30],"..."*(len(b['title'])>30),"\"")
+            print(f'WARNING Missing Expected Field {e} from entry {bib_id}: \"',
+                  b["title"][:30],"..."*(len(b['title'])>30),"\"")
             continue

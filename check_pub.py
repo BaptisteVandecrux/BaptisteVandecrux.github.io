@@ -19,6 +19,7 @@ for folder in folders:
                 lines = f.readlines()
             print(f"⚠️ Re-decoding with cp1252: {filename}")
 
+
         if not lines or lines[0].strip() != "---":
             print(f"{filename}: missing front matter")
             continue
