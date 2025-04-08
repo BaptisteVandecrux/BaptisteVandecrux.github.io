@@ -2,8 +2,7 @@
 title: "GC-Net 2022: weather station maintenance in western Greenland"
 collection: fieldworks
 type: "Fieldwork"
-permalink: /fieldworks/gc-net-2022
-date: 2022-05-20
+permalink: /fieldworks/2022-gc-net
 location: "Western Greenland"
 ---
 

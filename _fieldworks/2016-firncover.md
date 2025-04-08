@@ -2,8 +2,7 @@
 title: "FirnCoVer 2016: Snowmobile expedition to study the firn layer of the Greenland ice sheet"
 collection: fieldworks
 type: "Fieldwork"
-permalink: /fieldworks/firncover-2016
-date: 2016-05-20
+permalink: /fieldworks/2016-firncover
 location: "Greenland Ice Sheet"
 ---
 

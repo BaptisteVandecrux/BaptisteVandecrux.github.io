@@ -2,8 +2,7 @@
 title: "Master's Thesis project, 2015: Distributed measurements of snow thickness in Greenland and Svalbard"
 collection: fieldworks
 type: "Fieldwork"
-permalink: /fieldworks/masters-thesis-2015
-date: 2015-05-20
+permalink: /fieldworks/2015-masters-thesis
 location: "Greenland and Svalbard"
 ---
 

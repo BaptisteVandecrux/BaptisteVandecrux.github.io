@@ -2,8 +2,7 @@
 title: "PROMICE 2019: Weather station maintenance in Northeast Greenland"
 collection: fieldworks
 type: "Fieldwork"
-permalink: /fieldworks/promice-2019
-date: 2019-05-20
+permalink: /fieldworks/2019-promice
 location: "Northeast Greenland"
 ---
 

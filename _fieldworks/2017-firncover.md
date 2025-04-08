@@ -1,8 +1,7 @@
 ---
 title: "FirnCoVer 2017: Snowmobile traverse on the ice sheet to investigate the Greenland ice sheet firn layer"
 collection: fieldworks
-permalink: /fieldworks/firncover-2017
-date: 2017-05-20
+permalink: /fieldworks/2017-firncover
 location: "Greenland Ice Sheet"
 ---
 

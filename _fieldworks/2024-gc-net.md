@@ -2,8 +2,7 @@
 title: "GC-Net 2024: weather station maintenance in South Greenland"
 collection: fieldworks
 type: "Fieldwork"
-permalink: /fieldworks/gc-net-2024
-date: 2024-05-20
+permalink: /fieldworks/2024-gc-net
 location: "South Greenland"
 ---
 
