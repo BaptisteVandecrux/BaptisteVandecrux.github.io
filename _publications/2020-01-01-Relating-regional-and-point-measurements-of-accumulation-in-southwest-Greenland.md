@@ -1,7 +1,7 @@
 ---
 title: Relating regional and point measurements of accumulation in southwest Greenland.
 collection: publications
-permalink: /datasets/2020-01-01-Relating-regional-and-point-measurements-of-accumulation-in-southwest-Greenland
+permalink: /publication/2020-01-01-Relating-regional-and-point-measurements-of-accumulation-in-southwest-Greenland
 excerpt: ' '
 date: 2020-01-01
 venue: Cryosphere

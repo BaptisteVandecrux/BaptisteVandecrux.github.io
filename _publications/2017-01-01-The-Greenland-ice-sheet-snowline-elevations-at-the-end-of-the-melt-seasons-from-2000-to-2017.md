@@ -2,7 +2,7 @@
 title: The Greenland ice sheet--snowline elevations at the end of the melt seasons
   from 2000 to 2017
 collection: publications
-permalink: /datasets/2017-01-01-The-Greenland-ice-sheet-snowline-elevations-at-the-end-of-the-melt-seasons-from-2000-to-2017
+permalink: /publication/2017-01-01-The-Greenland-ice-sheet-snowline-elevations-at-the-end-of-the-melt-seasons-from-2000-to-2017
 excerpt: ' '
 date: 2017-01-01
 venue: Geological Survey of Denmark and Greenland Bulletin

@@ -1,7 +1,7 @@
 ---
 title: Regional climate-model performance in Greenland firn derived from in situ observations
 collection: publications
-permalink: /datasets/2016-01-01-Regional-climate-model-performance-in-Greenland-firn-derived-from-in-situ-observations
+permalink: /publication/2016-01-01-Regional-climate-model-performance-in-Greenland-firn-derived-from-in-situ-observations
 excerpt: ' '
 date: 2016-01-01
 venue: Geological Survey of Denmark and Greenland, GEUS

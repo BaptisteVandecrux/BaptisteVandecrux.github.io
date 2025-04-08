@@ -2,7 +2,7 @@
 title: A snow density dataset for improving surface boundary conditions in Greenland
   ice sheet firn modeling
 collection: publications
-permalink: /datasets/2018-01-01-A-snow-density-dataset-for-improving-surface-boundary-conditions-in-Greenland-ice-sheet-firn-modeling
+permalink: /publication/2018-01-01-A-snow-density-dataset-for-improving-surface-boundary-conditions-in-Greenland-ice-sheet-firn-modeling
 excerpt: ' '
 date: 2018-01-01
 venue: Frontiers in Earth Science

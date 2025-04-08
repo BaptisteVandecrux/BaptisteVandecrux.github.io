@@ -1,7 +1,7 @@
 ---
 title: Retrieval of snow properties from the Sentinel-3 Ocean and Land Colour Instrument
 collection: publications
-permalink: /datasets/2019-01-01-Retrieval-of-snow-properties-from-the-Sentinel-3-Ocean-and-Land-Colour-Instrument
+permalink: /publication/2019-01-01-Retrieval-of-snow-properties-from-the-Sentinel-3-Ocean-and-Land-Colour-Instrument
 excerpt: ' '
 date: 2019-01-01
 venue: Remote Sensing

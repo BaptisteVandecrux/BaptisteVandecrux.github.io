@@ -6,10 +6,10 @@ excerpt: ''
 date: 2023-01-01
 venue: GEUS Dataverse, V4
 paperurl: https://doi.org/10.22008/FK2/9QEOWZ
-citation: "Vandecrux, B.; Box, J.E.; Ahlstr\uFFFDm, A.P.; Fausto, R.S.; Karlsson,\
-  \ N.B.; Rutishauser, A.; Citterio, M.; Larsen, S.H.; Heuer, J.; Solgaard, A.M.;\
-  \ How, P.; Colgan, W.T.; Fahrner, D., 2023, GEUS snow and firn data in Greenland,\
-  \ https://doi.org/10.22008/FK2/9QEOWZ, GEUS Dataverse, V4"
+citation: Vandecrux, B.; Box, J.E.; Ahlstr�m, A.P.; Fausto, R.S.; Karlsson, N.B.;
+  Rutishauser, A.; Citterio, M.; Larsen, S.H.; Heuer, J.; Solgaard, A.M.; How, P.;
+  Colgan, W.T.; Fahrner, D., 2023, GEUS snow and firn data in Greenland, https://doi.org/10.22008/FK2/9QEOWZ,
+  GEUS Dataverse, V4
 ---
 
 Use [Google Scholar](https://scholar.google.com/scholar?q=GEUS+snow+and+firn+data+in+Greenland){:target="_blank"} for full citation.

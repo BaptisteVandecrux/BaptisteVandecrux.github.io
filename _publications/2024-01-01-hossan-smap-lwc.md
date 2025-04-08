@@ -3,7 +3,7 @@ title: 'Retrieval and Validation of Total Seasonal Liquid Water Amounts in the P
   Zone of Greenland Ice Sheet Using L-band Radiometry, accepted at The Cryosphere,
   preprint:'
 collection: publications
-permalink: /datasets/2024-01-01-hossan-smap-lwc
+permalink: /publication/2024-01-01-hossan-smap-lwc
 excerpt: ''
 date: 2024-01-01
 venue: ''

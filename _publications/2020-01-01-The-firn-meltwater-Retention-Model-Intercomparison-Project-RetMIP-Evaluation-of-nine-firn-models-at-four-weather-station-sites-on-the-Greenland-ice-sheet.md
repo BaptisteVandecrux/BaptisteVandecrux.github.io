@@ -2,7 +2,7 @@
 title: 'The firn meltwater Retention Model Intercomparison Project (RetMIP): Evaluation
   of nine firn models at four weather station sites on the Greenland ice sheet'
 collection: publications
-permalink: /datasets/2020-01-01-The-firn-meltwater-Retention-Model-Intercomparison-Project-RetMIP-Evaluation-of-nine-firn-models-at-four-weather-station-sites-on-the-Greenland-ice-sheet
+permalink: /publication/2020-01-01-The-firn-meltwater-Retention-Model-Intercomparison-Project-RetMIP-Evaluation-of-nine-firn-models-at-four-weather-station-sites-on-the-Greenland-ice-sheet
 excerpt: ' '
 date: 2020-01-01
 venue: Cryosphere Discussions

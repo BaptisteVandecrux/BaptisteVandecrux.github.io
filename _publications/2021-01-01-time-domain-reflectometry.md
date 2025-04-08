@@ -2,7 +2,7 @@
 title: 'Time-domain reflectometry measurements and modeling of firn meltwater infiltration
   at DYE-2, Greenland. Journal of Geophysical Research: Earth Surface, 126, e2021JF006295'
 collection: publications
-permalink: /datasets/2021-01-01-time-domain-reflectometry
+permalink: /publication/2021-01-01-time-domain-reflectometry
 excerpt: ''
 date: 2021-01-01
 venue: ''

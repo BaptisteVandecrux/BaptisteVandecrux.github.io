@@ -2,7 +2,7 @@
 title: The Determination of Snow Albedo from Satellite Measurements Using Fast Atmospheric
   Correction Technique
 collection: publications
-permalink: /datasets/2020-01-01-The-Determination-of-Snow-Albedo-from-Satellite-Measurements-Using-Fast-Atmospheric-Correction-Technique
+permalink: /publication/2020-01-01-The-Determination-of-Snow-Albedo-from-Satellite-Measurements-Using-Fast-Atmospheric-Correction-Technique
 excerpt: ' '
 date: 2020-01-01
 venue: Remote Sensing

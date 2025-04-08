@@ -2,7 +2,7 @@
 title: Firn data compilation reveals widespread decrease of firn air content in western
   Greenland
 collection: publications
-permalink: /datasets/2019-01-01-Firn-data-compilation-reveals-widespread-decrease-of-firn-air-content-in-western-Greenland
+permalink: /publication/2019-01-01-Firn-data-compilation-reveals-widespread-decrease-of-firn-air-content-in-western-Greenland
 excerpt: ' '
 date: 2019-01-01
 venue: The Cryosphere
