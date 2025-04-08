@@ -83,8 +83,7 @@ author:
   name             : "B. Vandecrux"
   avatar           : "profile.png"
   bio              : "Researcher in snow, ice and climate"
-  location         : "Copenhagen, Denmark"
-  employer         : "Geological Survey of Denmark and Greenland"
+  employer         : "GEUS, Copenhagen, Denmark"
   googlescholar    : "https://scholar.google.com/citations?user=Mt24kfgAAAAJ&hl=en"
   email            : "bav@geus.dk"
   researchgate     :  "https://www.researchgate.net/profile/Baptiste_Vandecrux2"
@@ -193,12 +192,12 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _talks
+  # _fieldworks
   - scope:
       path: ""
-      type: talks
+      type: fieldworks
     values:
-      layout: talk
+      layout: single
       author_profile: true
       share: true
   # _datasets
