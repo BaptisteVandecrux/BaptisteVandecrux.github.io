@@ -6,10 +6,10 @@ main:
   - title: "Datasets"
     url: /datasets/
 
-  - title: "Talks"
-    url: /talks/    
+  - title: "Fieldwork"
+    url: /fieldworks/    
 
-  - title: "Teaching"
+  - title: "Supervision and Teaching"
     url: /teaching/    
     
   - title: "CV"
