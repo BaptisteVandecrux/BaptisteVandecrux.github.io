@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Datasets"
-permalink: /datasets/
+title: "Fieldworks"
+permalink: /fieldworks/
 author_profile: true
 ---
 
@@ -11,6 +11,6 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.datasets reversed %}
+{% for post in site.fieldworks reversed %}
   {% include archive-single.html %}
 {% endfor %}
