@@ -158,7 +158,7 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  talks:
+  fieldworks:
     output: true
     permalink: /:collection/:path/
   datasets:
