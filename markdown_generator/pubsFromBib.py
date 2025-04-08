@@ -10,25 +10,25 @@ import os
 import re
 
 #todo: incorporate different collection types rather than a catch all publications, requires other changes to template
-publist = {        
-    "journal":{
-        "file": "my_pubs.bib",
-        "venuekey" : "journal",
-        "venue-pretext" : "",
-        "collection" : {"name":"publications",
-                        "permalink":"/publication/"}
-    } 
-}
-
 # publist = {        
 #     "journal":{
-#         "file": "my_datasets.bib",
-#         "venuekey" : "publisher",
+#         "file": "my_pubs.bib",
+#         "venuekey" : "journal",
 #         "venue-pretext" : "",
-#         "collection" : {"name":"datasets",
-#                         "permalink":"/datasets/"}
+#         "collection" : {"name":"publications",
+#                         "permalink":"/publications/"}
 #     } 
 # }
+
+publist = {        
+    "journal":{
+        "file": "my_datasets.bib",
+        "venuekey" : "publisher",
+        "venue-pretext" : "",
+        "collection" : {"name":"datasets",
+                        "permalink":"/datasets/"}
+    } 
+}
 
 html_escape_table = {
     "&": "&amp;",
@@ -100,7 +100,7 @@ for pubsource in publist:
 
             
             ## YAML variables
-            md = "---\ntitle: \""   + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + '"\n'
+            md = "---\ntitle: \""   + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","").replace("\"","").replace("&quot;","")) + '"\n'
             
             md += """collection: """ +  publist[pubsource]["collection"]["name"]
 
@@ -147,7 +147,7 @@ for pubsource in publist:
 
             md_filename = os.path.basename(md_filename)
 
-            with open(f"../_{col}/" + md_filename, 'w') as f:
+            with open(f"../_{col}/" + md_filename, 'w',encoding="utf-8") as f:
                 f.write(md)
             print(f'SUCESSFULLY PARSED {bib_id}: \"', b["title"][:60],"..."*(len(b['title'])>60),"\"")
         # field may not exist for a reference
