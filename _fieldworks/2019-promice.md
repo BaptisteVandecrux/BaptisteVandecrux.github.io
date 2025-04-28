@@ -9,7 +9,11 @@ location: "Northeast Greenland"
 With this fieldwork, I visited some of the most remote places in Greenland: the Kronprins Christian Land, Centrum Sø and the two lonely weather stations of KPC_L and KPC_U.
 
 KPC_U was slowly getting frozen into the ice sheet: every summer, more ice refeezes on top of previous years' ice. This is an accumulation process called superimposed ice formation.
+And since we visited in the middle of the melting season, the surface snow was saturated with water, almost drowning the logger box.
 ![image not found](../images/KPC_U_1.JPG)
 
 After our visit the new KPC_U station looked in better shape.
 ![image not found](../images/KPC_U_2.JPG)
+
+We even got the chance to fly over the calving front of Zachariae glacier which, together with its northern nabour 79N glacier, drain about 12% of the Greenland ice.
+![image not found](../images/KPC.JPG)
