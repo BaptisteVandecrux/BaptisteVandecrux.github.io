@@ -1,6 +1,5 @@
 ---
 permalink: /
-title: ""
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -14,4 +13,6 @@ Through extensive **fieldwork**, I've gained a hands-on understanding of the phy
 I want to help build a research community that is **open, transparent, and collaborative**, and that actively **makes space for diverse voices and contributions**.
 
 
-<img src="../images/fieldwork.jpg" alt="fieldwork" style="max-width: 100%; width: 400px; height: auto;">
+<div style="text-align: center;">
+  <img src="../images/fieldwork.jpg" alt="fieldwork" style="max-width: 100%; width: 600px; height: auto;">
+</div>
