@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Baptiste Vandecrux"
+title: ""
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,7 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-## Profile
 
 I'm a researcher focused on the interaction between the **Greenland ice sheet** and **climate change**. My work combines **in situ observations**, **remote sensing**, and **machine learning** to improve our understanding of the ice sheet **surface mass and energy balance**.
 
