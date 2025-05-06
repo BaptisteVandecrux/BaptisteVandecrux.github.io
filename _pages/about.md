@@ -14,4 +14,4 @@ Through extensive **fieldwork**, I've gained a hands-on understanding of the phy
 I want to help build a research community that is **open, transparent, and collaborative**, and that actively **makes space for diverse voices and contributions**.
 
 
-![image not found](../images/fieldwork.jpg)
+<img src="../images/fieldwork.jpg" alt="fieldwork" style="max-width: 100%; width: 400px; height: auto;">

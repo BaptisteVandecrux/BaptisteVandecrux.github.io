@@ -9,8 +9,8 @@ main:
   - title: "Fieldworks"
     url: /fieldworks/    
 
-  - title: "Supervision and Teaching"
-    url: /teaching/    
+  # - title: "Supervision and Teaching"
+    # url: /teaching/    
     
   - title: "CV"
     url: /cv/
