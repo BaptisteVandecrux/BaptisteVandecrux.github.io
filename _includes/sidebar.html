@@ -1,12 +1,11 @@
 {% include base_path %}
 
 {% if page.author_profile or layout.author_profile or page.sidebar %}
-
   <div class="sidebar sticky">
     {% if page.author_profile or layout.author_profile %}
       <!-- Enlarged profile image -->
       <div style="text-align: center; margin-bottom: 1em;">
-        <img src="{{ site.avatar }}" alt="" class="img-circle" style="width: 200px; height: auto;">
+        <img src="{{ site.avatar }}" alt="Profile picture" class="img-circle" style="width: 200px; height: auto;">
       </div>
       {% include author-profile.html %}
     {% endif %}
