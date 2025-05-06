@@ -15,5 +15,5 @@ Through extensive **fieldwork**, I've gained a hands-on understanding of the phy
 
 I want to help build a research community that is **open, transparent, and collaborative**, and that actively **makes space for diverse voices and contributions**.
 
-<div style="background-image: url('{{ "/images/fieldwork.jpg" | relative_url }}'); background-size: cover; height: 200px; margin-top: 2em; border-radius: 8px;">
-</div>
+
+![image not found](../images/fieldwork.jpg)
