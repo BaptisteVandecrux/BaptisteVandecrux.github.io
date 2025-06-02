@@ -5,7 +5,7 @@ permalink: /fieldworks/2017-firncover
 location: "Greenland Ice Sheet"
 ---
 
-This fieldwork was my second field season on the Greenland ice sheet with the FirnCover project, and it built directly on the momentum of the year before. We started in April, gathering in Kangerlussuaq to prep gear and load skidoos, fuel drums, science equipment, and weeks’ worth of supplies. After a few days of sorting and staging, we flew by LC-130 to Camp Raven (DYE-2), where the real work began.
+This fieldwork was my second field season on the Greenland ice sheet with the FirnCover project, and it built directly on the momentum of the year before. We started in April, gathering in Kangerlussuaq to prep gear and load skidoos, fuel drums, science equipment, and weeks’ worth of supplies. After a few days of sorting and staging, we flew by LC-126 to Camp Raven (DYE-2), where the real work began.
 
 From DYE-2, we launched a major traverse across southern Greenland by snowmobile, covering over 600 kilometers round-trip. Our targets were a series of firn monitoring sites including EKT and KAN-U. At each stop, we drilled firn cores, serviced GPS compaction stations, and collected snow samples. The terrain was rough, with deep sastrugi slowing progress and occasionally flipping sleds. Some days stretched past 12 hours in the cold, with hands freezing to metal coring rods despite gloves.
 
@@ -22,31 +22,31 @@ Despite the setbacks, the team moved efficiently and morale stayed high. Once th
     </a>
   </div>
 
-  <div style="flex: 1 1 30%; max-width: 32%; display: flex; align-items: center; justify-content: center;">
+  <div style="flex: 1 1 26%; max-width: 28%; display: flex; align-items: center; justify-content: center;">
     <a href="/images/fc17_2.jpg">
       <img src="/images/fc17_2.jpg" alt="Photo 2" style="width: 100%; border-radius: 6px; height: auto; object-fit: contain;" />
     </a>
   </div>
 
-  <div style="flex: 1 1 30%; max-width: 32%; display: flex; align-items: center; justify-content: center;">
+  <div style="flex: 1 1 26%; max-width: 28%; display: flex; align-items: center; justify-content: center;">
     <a href="/images/fc17_3.jpg">
       <img src="/images/fc17_3.jpg" alt="Photo 3" style="width: 100%; border-radius: 6px; height: auto; object-fit: contain;" />
     </a>
   </div>
 
-  <div style="flex: 1 1 30%; max-width: 32%; display: flex; align-items: center; justify-content: center;">
+  <div style="flex: 1 1 26%; max-width: 28%; display: flex; align-items: center; justify-content: center;">
     <a href="/images/fc17_4.jpg">
       <img src="/images/fc17_4.jpg" alt="Photo 4" style="width: 100%; border-radius: 6px; height: auto; object-fit: contain;" />
     </a>
   </div>
 
-  <div style="flex: 1 1 50%; max-width: 51%; display: flex; align-items: center; justify-content: center;">
+  <div style="flex: 1 1 45%; max-width: 48%; display: flex; align-items: center; justify-content: center;">
     <a href="/images/fc17_5.jpg">
       <img src="/images/fc17_5.jpg" alt="Photo 5" style="width: 100%; border-radius: 6px; height: auto; object-fit: contain;" />
     </a>
   </div>
 
-  <div style="flex: 1 1 50%; max-width: 51%; display: flex; align-items: center; justify-content: center;">
+  <div style="flex: 1 1 45%; max-width: 48%; display: flex; align-items: center; justify-content: center;">
     <a href="/images/fc17_6.jpg">
       <img src="/images/fc17_6.jpg" alt="Photo 6" style="width: 100%; border-radius: 6px; height: auto; object-fit: contain;" />
     </a>
