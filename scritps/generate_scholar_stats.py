@@ -57,5 +57,5 @@ with open(OUT_MD, "w") as f:
     f.write(f"<strong>Total publications:</strong> {n_papers}<br/>\n")
     f.write(f"<strong>First author publications:</strong> {first_author_count}<br/>\n")
     f.write(f"<strong>Total citations:</strong> {total_citations}<br/>\n")
-    f.write(f'<img src="/images/citations_by_year.png" alt="Citation barplot" style="max-width: 100%; margin-top: 1em;" />\n')
+    f.write(f'<img src="/images/citations_by_year.png" alt="Citation barplot" style="width: 150px; height: 190px; margin-top: 1em;" />\n')
     f.write('</div>\n')
