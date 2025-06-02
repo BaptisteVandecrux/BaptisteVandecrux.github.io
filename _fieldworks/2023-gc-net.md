@@ -12,4 +12,3 @@ As the worried look on Andreas' face indicates, KAN_U was standing in rather poo
 
 Each year the stations' masts are extended to prevent the instruments or the logger box to get buried in the accumulating snow. Andreas and Jacob check that the DYE-2 station work as it should before leaving.
 ![image not found](../images/gc-net-2023-2.jpg)
-

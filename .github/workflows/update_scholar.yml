@@ -1,0 +1,33 @@
+name: Update Scholar Stats
+
+on:
+  schedule:
+    - cron: "0 0 * * 1"  # every Monday
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install scholarly matplotlib pandas
+
+      - name: Generate Google Scholar stats
+        run: python generate_scholar_stats.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add _includes/publication_stats.md assets/img/citations_by_year.png
+          git commit -m "Update Google Scholar stats"
+          git push
