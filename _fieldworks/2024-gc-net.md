@@ -22,19 +22,19 @@ We visited DYE-2, KAN_U, Saddle, Crawford Point, NASA-SE and even South Dome whe
     </a>
   </div>
 
-  <div style="flex: 1 1 28%; max-width: 30%; display: flex; align-items: center; justify-content: center;">
+  <div style="flex: 1 1 25%; max-width: 28%; display: flex; align-items: center; justify-content: center;">
     <a href="/images/gc-net-2024-2.jpg">
       <img src="/images/gc-net-2024-2.jpg" alt="GC-Net 2024 2" style="width: 100%; border-radius: 6px; height: auto; object-fit: contain;" />
     </a>
   </div>
 
-  <div style="flex: 1 1 28%; max-width: 30%; display: flex; align-items: center; justify-content: center;">
+  <div style="flex: 1 1 25%; max-width: 28%; display: flex; align-items: center; justify-content: center;">
     <a href="/images/gc-net-2024-3.jpg">
       <img src="/images/gc-net-2024-3.jpg" alt="GC-Net 2024 3" style="width: 100%; border-radius: 6px; height: auto; object-fit: contain;" />
     </a>
   </div>
 
-  <div style="flex: 1 1 28%; max-width: 30%; display: flex; align-items: center; justify-content: center;">
+  <div style="flex: 1 1 25%; max-width: 28%; display: flex; align-items: center; justify-content: center;">
     <a href="/images/gc-net-2024-01.gif">
       <img src="/images/gc-net-2024-01.gif" alt="GC-Net 2024 01" style="width: 100%; border-radius: 6px; height: auto; object-fit: contain;" />
     </a>
