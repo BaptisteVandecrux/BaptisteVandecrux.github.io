@@ -13,47 +13,11 @@ After a tough day on the ice, we landed in Upernavik to wait out yet another sto
 Taking advantage of every short weather window, sometimes just a few hours long, we reached KAN\_U and South Dome (SDM). As our official mission wrapped up, three teammates volunteered to stay longer to cover the last two sites: NASA-SE (NSE) and Saddle (SDL). Thanks to that final push, every station on the list was visited. Despite the weather challenges, the GC-Net South 2025 campaign was a full success.
 
 <div style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: center;">
-
-  <div style="flex: 1 1 30%; max-width: 48%; display: flex; align-items: center; justify-content: center;">
-    <a href="/images/gc-net-2025-1.JPG">
-      <img src="/images/gc-net-2025-1.JPG" alt="Photo 1" style="width: 100%; border-radius: 6px; height: auto;" />
-    </a>
-  </div>
-
-  <div style="flex: 1 1 30%; max-width: 48%; display: flex; align-items: center; justify-content: center;">
-    <a href="/images/gc-net-2025-2.JPG">
-      <img src="/images/gc-net-2025-2.JPG" alt="Photo 2" style="width: 100%; border-radius: 6px; height: auto;" />
-    </a>
-  </div>
-
-  <div style="flex: 1 1 30%; max-width: 32%; display: flex; align-items: center; justify-content: center;">
-    <a href="/images/gc-net-2025-3.JPG">
-      <img src="/images/gc-net-2025-3.JPG" alt="Photo 3" style="width: 100%; border-radius: 6px; height: auto;" />
-    </a>
-  </div>
-
-  <div style="flex: 1 1 30%; max-width: 32%; display: flex; align-items: center; justify-content: center;">
-    <a href="/images/gc-net-2025-4.JPG">
-      <img src="/images/gc-net-2025-4.JPG" alt="Photo 4" style="width: 100%; border-radius: 6px; height: auto;" />
-    </a>
-  </div>
-
-  <div style="flex: 1 1 30%; max-width: 32%; display: flex; align-items: center; justify-content: center;">
-    <a href="/images/gc-net-2025-5.JPG">
-      <img src="/images/gc-net-2025-5.JPG" alt="Photo 5" style="width: 100%; border-radius: 6px; height: auto;" />
-    </a>
-  </div>
-
-  <div style="flex: 1 1 30%; max-width: 48%; display: flex; align-items: center; justify-content: center;">
-    <a href="/images/gc-net-2025-6.JPG">
-      <img src="/images/gc-net-2025-6.JPG" alt="Photo 6" style="width: 100%; border-radius: 6px; height: auto;" />
-    </a>
-  </div>
-
-  <div style="flex: 1 1 30%; max-width: 48%; display: flex; align-items: center; justify-content: center;">
-    <a href="/images/gc-net-2025-7.JPG">
-      <img src="/images/gc-net-2025-7.JPG" alt="Photo 7" style="width: 100%; border-radius: 6px; height: auto;" />
-    </a>
-  </div>
-
+  <a href="/images/gc-net-2025-1.JPG" style="flex: 1 1 30%; max-width: 32%;"><img src="/images/gc-net-2025-1.JPG" alt="Photo 1" style="width: 100%; border-radius: 6px;" /></a>
+  <a href="/images/gc-net-2025-2.JPG" style="flex: 1 1 30%; max-width: 32%;"><img src="/images/gc-net-2025-2.JPG" alt="Photo 2" style="width: 100%; border-radius: 6px;" /></a>
+  <a href="/images/gc-net-2025-3.JPG" style="flex: 1 1 30%; max-width: 32%;"><img src="/images/gc-net-2025-3.JPG" alt="Photo 3" style="width: 100%; border-radius: 6px;" /></a>
+  <a href="/images/gc-net-2025-4.JPG" style="flex: 1 1 30%; max-width: 32%;"><img src="/images/gc-net-2025-4.JPG" alt="Photo 4" style="width: 100%; border-radius: 6px;" /></a>
+  <a href="/images/gc-net-2025-5.JPG" style="flex: 1 1 30%; max-width: 32%;"><img src="/images/gc-net-2025-5.JPG" alt="Photo 5" style="width: 100%; border-radius: 6px;" /></a>
+  <a href="/images/gc-net-2025-6.JPG" style="flex: 1 1 30%; max-width: 32%;"><img src="/images/gc-net-2025-6.JPG" alt="Photo 6" style="width: 100%; border-radius: 6px;" /></a>
+  <a href="/images/gc-net-2025-7.JPG" style="flex: 1 1 30%; max-width: 32%;"><img src="/images/gc-net-2025-7.JPG" alt="Photo 7" style="width: 100%; border-radius: 6px;" /></a>
 </div>
