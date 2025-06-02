@@ -6,5 +6,5 @@
 <strong>Total publications:</strong> 28<br/>
 <strong>First author publications:</strong> 8<br/>
 <strong>Total citations:</strong> 1149<br/>
-<img src="/assets/img/citations_by_year.png" alt="Citation barplot" style="max-width: 100%; margin-top: 1em;" />
+<img src="/images/citations_by_year.png" alt="Citation barplot" style="max-width: 100%; margin-top: 1em;" />
 </div>
