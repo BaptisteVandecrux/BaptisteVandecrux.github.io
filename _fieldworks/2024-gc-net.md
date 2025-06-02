@@ -8,6 +8,8 @@ location: "South Greenland"
 
 We visited DYE-2, KAN_U, Saddle, Crawford Point, NASA-SE and even South Dome where we got stranded for 8 hours due to sticky snow, thin air and low winds, making it impossible for the twin otter to take off.
 
+At DYE-2 a ground penetrating radar (GPR) survey was designed by my colleague Anja Rutishauser, and I was put in charge of pulling the radar. The main question that we wanted to answer is how variable are the firn properties. This question was studied further by Adrian Muller for his [Master's thesis](https://infoscience.epfl.ch/entities/publication/47b3cf7a-bbf0-4e9a-a38f-7796edd6d235) at the Ecole Polytechnique de Lausane under Anja's supervision. Another motivation was to repeat GPR surveys from the FirnCover fieldworks of 2016 and 2017 where I was also involved.
+
 <div style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; align-items: center;">
 
   <div style="flex: 1 1 45%; max-width: 48%; display: flex; align-items: center; justify-content: center;">
