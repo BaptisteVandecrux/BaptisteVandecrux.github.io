@@ -14,11 +14,44 @@ Midway through the campaign, a mechanical failure on one of the skidoos forced a
 Despite the setbacks, the team moved efficiently and morale stayed high. Once the southern traverse was complete, we wrapped up the campaign with additional work at DYE-2 before flying out. The fieldwork deepened my understanding of the firn processes we were measuring—and further cemented my dedication to this kind of science. We didn’t just gather great data that year, we proved we could operate as a tight, resilient team under Greenland’s most challenging conditions.
 
 
+```html
 <div style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: center;">
-  <a href="/images/fc17_1.jpg"><img src="/images/fc17_1.jpg" alt="Photo 1" style="width: 32%; border-radius: 6px; height: auto; object-fit: contain;" /></a>
-  <a href="/images/fc17_2.jpg"><img src="/images/fc17_2.jpg" alt="Photo 2" style="width: 32%; border-radius: 6px; height: auto; object-fit: contain;" /></a>
-  <a href="/images/fc17_3.jpg"><img src="/images/fc17_3.jpg" alt="Photo 3" style="width: 32%; border-radius: 6px; height: auto; object-fit: contain;" /></a>
-  <a href="/images/fc17_4.jpg"><img src="/images/fc17_4.jpg" alt="Photo 4" style="width: 32%; border-radius: 6px; height: auto; object-fit: contain;" /></a>
-  <a href="/images/fc17_5.jpg"><img src="/images/fc17_5.jpg" alt="Photo 5" style="width: 32%; border-radius: 6px; height: auto; object-fit: contain;" /></a>
-  <a href="/images/fc17_6.jpg"><img src="/images/fc17_6.jpg" alt="Photo 6" style="width: 32%; border-radius: 6px; height: auto; object-fit: contain;" /></a>
+
+  <div style="flex: 1 1 100%; max-width: 100%; display: flex; align-items: center; justify-content: center;">
+    <a href="/images/fc17_1.jpg">
+      <img src="/images/fc17_1.jpg" alt="Photo 1" style="width: 100%; border-radius: 6px; height: auto; object-fit: contain;" />
+    </a>
+  </div>
+
+  <div style="flex: 1 1 30%; max-width: 32%; display: flex; align-items: center; justify-content: center;">
+    <a href="/images/fc17_2.jpg">
+      <img src="/images/fc17_2.jpg" alt="Photo 2" style="width: 100%; border-radius: 6px; height: auto; object-fit: contain;" />
+    </a>
+  </div>
+
+  <div style="flex: 1 1 30%; max-width: 32%; display: flex; align-items: center; justify-content: center;">
+    <a href="/images/fc17_3.jpg">
+      <img src="/images/fc17_3.jpg" alt="Photo 3" style="width: 100%; border-radius: 6px; height: auto; object-fit: contain;" />
+    </a>
+  </div>
+
+  <div style="flex: 1 1 30%; max-width: 32%; display: flex; align-items: center; justify-content: center;">
+    <a href="/images/fc17_4.jpg">
+      <img src="/images/fc17_4.jpg" alt="Photo 4" style="width: 100%; border-radius: 6px; height: auto; object-fit: contain;" />
+    </a>
+  </div>
+
+  <div style="flex: 1 1 50%; max-width: 51%; display: flex; align-items: center; justify-content: center;">
+    <a href="/images/fc17_5.jpg">
+      <img src="/images/fc17_5.jpg" alt="Photo 5" style="width: 100%; border-radius: 6px; height: auto; object-fit: contain;" />
+    </a>
+  </div>
+
+  <div style="flex: 1 1 50%; max-width: 51%; display: flex; align-items: center; justify-content: center;">
+    <a href="/images/fc17_6.jpg">
+      <img src="/images/fc17_6.jpg" alt="Photo 6" style="width: 100%; border-radius: 6px; height: auto; object-fit: contain;" />
+    </a>
+  </div>
+
 </div>
+```
