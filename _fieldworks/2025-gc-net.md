@@ -14,13 +14,13 @@ Taking advantage of every short weather window, sometimes just a few hours long,
 
 <div style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: center;">
 
-  <div style="flex: 1 1 50%; max-width: 48%; display: flex; align-items: center; justify-content: center;">
+  <div style="flex: 1 1 30%; max-width: 48%; display: flex; align-items: center; justify-content: center;">
     <a href="/images/gc-net-2025-1.JPG">
       <img src="/images/gc-net-2025-1.JPG" alt="Photo 1" style="width: 100%; border-radius: 6px; height: auto;" />
     </a>
   </div>
 
-  <div style="flex: 1 1 50%; max-width: 48%; display: flex; align-items: center; justify-content: center;">
+  <div style="flex: 1 1 30%; max-width: 48%; display: flex; align-items: center; justify-content: center;">
     <a href="/images/gc-net-2025-2.JPG">
       <img src="/images/gc-net-2025-2.JPG" alt="Photo 2" style="width: 100%; border-radius: 6px; height: auto;" />
     </a>
@@ -44,13 +44,13 @@ Taking advantage of every short weather window, sometimes just a few hours long,
     </a>
   </div>
 
-  <div style="flex: 1 1 50%; max-width: 48%; display: flex; align-items: center; justify-content: center;">
+  <div style="flex: 1 1 30%; max-width: 48%; display: flex; align-items: center; justify-content: center;">
     <a href="/images/gc-net-2025-6.JPG">
       <img src="/images/gc-net-2025-6.JPG" alt="Photo 6" style="width: 100%; border-radius: 6px; height: auto;" />
     </a>
   </div>
 
-  <div style="flex: 1 1 50%; max-width: 48%; display: flex; align-items: center; justify-content: center;">
+  <div style="flex: 1 1 30%; max-width: 48%; display: flex; align-items: center; justify-content: center;">
     <a href="/images/gc-net-2025-7.JPG">
       <img src="/images/gc-net-2025-7.JPG" alt="Photo 7" style="width: 100%; border-radius: 6px; height: auto;" />
     </a>
