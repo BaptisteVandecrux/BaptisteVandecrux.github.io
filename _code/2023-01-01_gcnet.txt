@@ -6,7 +6,11 @@ excerpt 'Open-source scripts for processing and calibrating GC-Net AWS data acro
 date 2024-06-01
 ---
 
-[https://github.com/GEUS-Glaciology-and-Climate/GC-Net-level-1-data-processing](https://github.com/GEUS-Glaciology-and-Climate/GC-Net-level-1-data-processing){target=_blank}  
+<a href="https://github.com/GEUS-Glaciology-and-Climate/GC-Net-level-1-data-processing" target="_blank" style="display: inline-flex; align-items: center; gap: 8px;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="28" />
+  <strong>https://github.com/GEUS-Glaciology-and-Climate/GC-Net-level-1-data-processing</strong>
+</a>
+
 [![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://github.com/GEUS-Glaciology-and-Climate/GC-Net-level-1-data-processing/blob/main/LICENSE) [![GitHub issues](https://img.shields.io/github/issues-raw/GEUS-Glaciology-and-Climate/GC-Net-level-1-data-processing)](https://github.com/GEUS-Glaciology-and-Climate/GC-Net-level-1-data-processing/issues) [![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/GEUS-Glaciology-and-Climate/GC-Net-level-1-data-processing)](https://github.com/GEUS-Glaciology-and-Climate/GC-Net-level-1-data-processing/releases/) [![](<https://img.shields.io/badge/Dataverse DOI-10.22008/FK2/VVXGUT-orange>)](https://doi.org/10.22008/FK2/VVXGUT)
 
 This repository contains the scripts used to calibrate, clean, and process Level 1 data from GC-Net, Greenland’s longest-running AWS network initiated by Dr. Konrad Steffen. The dataset includes quality-controlled time series from 16 long-term stations across the ice sheet.

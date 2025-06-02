@@ -1,0 +1,19 @@
+---
+title: "pyNEAD: Python interface to the NEAD format"
+collection: code
+permalink: /code/pynead
+excerpt: 'Python functions for reading and writing NEAD-formatted meteorological datasets.'
+date: 2024-06-01
+paperurl: 'https://doi.org/10.5281/zenodo.7728588'
+citation: 'Mankoff K. et al. pyNEAD: Python interface to the NEAD format. Zenodo, 2023. https://doi.org/10.5281/zenodo.7728588'
+---
+
+<a href="https://github.com/GEUS-PROMICE/pyNEAD" target="_blank" style="display: inline-flex; align-items: center; gap: 8px;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="28" />
+  <strong>https://github.com/GEUS-PROMICE/pyNEAD</strong>
+</a>
+
+[![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7728588.svg)](https://doi.org/10.5281/zenodo.7728588)
+
+**pyNEAD** is a lightweight Python package for reading and writing meteorological data in the [NEAD format](https://github.com/GEUS-PROMICE/NEAD), enabling transparent metadata and compatibility with xarray and pandas.
+
