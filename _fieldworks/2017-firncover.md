@@ -14,7 +14,6 @@ Midway through the campaign, a mechanical failure on one of the skidoos forced a
 Despite the setbacks, the team moved efficiently and morale stayed high. Once the southern traverse was complete, we wrapped up the campaign with additional work at DYE-2 before flying out. The fieldwork deepened my understanding of the firn processes we were measuring—and further cemented my dedication to this kind of science. We didn’t just gather great data that year, we proved we could operate as a tight, resilient team under Greenland’s most challenging conditions.
 
 
-```html
 <div style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: center;">
 
   <div style="flex: 1 1 100%; max-width: 100%; display: flex; align-items: center; justify-content: center;">
@@ -54,4 +53,3 @@ Despite the setbacks, the team moved efficiently and morale stayed high. Once th
   </div>
 
 </div>
-```

@@ -11,7 +11,6 @@ The weather was relentless. At KAN-U, we were hit by whiteout conditions and hig
 
 When the skies cleared, we transitioned to the second phase of the campaign using a ski-equipped Twin Otter to reach remote sites including Crawford Point, Summit, and EastGRIP. At Summit, in a burst of calm weather and high efficiency, we managed to drill what may have been the fastest 16-meter firn core in history. Each site offered new challenges—cold fingers, flat light, shifting flight schedules—but also new insight into how Greenland’s snow and firn are changing. That field season didn’t just teach me polar science, it pulled me into it fully.
 
-```html
 <div style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: center;">
 
   <div style="flex: 1 1 50%; max-width: 52%; display: flex; align-items: center; justify-content: center;">
@@ -84,7 +83,6 @@ When the skies cleared, we transitioned to the second phase of the campaign usin
   </div>
 
 </div>
-```
 
 
 
