@@ -3,11 +3,11 @@ main:
   - title: "Publications"
     url: /publications/
     
-  - title: "Datasets"
-    url: /datasets/
-
   - title: "Fieldworks"
     url: /fieldworks/    
+
+  - title: "Datasets"
+    url: /datasets/
 
   - title: "Code"
     url: /code/    
