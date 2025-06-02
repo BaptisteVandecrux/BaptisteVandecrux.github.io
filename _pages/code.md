@@ -15,6 +15,8 @@ author_profile: true
   <div style="flex: 1 1 auto; display: flex; justify-content: center;">
     <img src="https://github-readme-stats.vercel.app/api?username=BaptisteVandecrux&show_icons=true&hide=issues&theme=default" alt="GitHub stats" style="max-width: 100%; height: auto;" />
   </div>
+    <img src="https://github-contributions-api.deno.dev/BaptisteVandecrux.svg" alt="GitHub contribution graph" style="border: 1px solid #ddd; border-radius: 6px; padding: 8px; background: #fff; max-width: 100%;" />
+
 </div>
 
 
