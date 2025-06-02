@@ -1,7 +1,7 @@
 ---
 title: "GC-Net Level 1 historical automated weather station data"
 collection: datasets
-permalink: /datasets/2022-01-01-GC-Net-Level-1-historical-automated-wea
+permalink: /datasets/GC-Net-Level-1-historical-automated-weather-station-data
 excerpt: ' '
 date: 2022-01-01
 venue: 'GEUS Dataverse'
