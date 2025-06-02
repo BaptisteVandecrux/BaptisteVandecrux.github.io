@@ -13,63 +13,12 @@ Midway through the campaign, a mechanical failure on one of the skidoos forced a
 
 Despite the setbacks, the team moved efficiently and morale stayed high. Once the southern traverse was complete, we wrapped up the campaign with additional work at DYE-2 before flying out. The fieldwork deepened my understanding of the firn processes we were measuring—and further cemented my dedication to this kind of science. We didn’t just gather great data that year, we proved we could operate as a tight, resilient team under Greenland’s most challenging conditions.
 
-<style>
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  justify-content: center;
-}
-.gallery a img {
-  width: 30%;
-  height: auto;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: 0.2s ease;
-}
-.gallery a img:hover {
-  opacity: 0.8;
-}
-.lightbox {
-  display: none;
-  position: fixed;
-  z-index: 9999;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  background: rgba(0, 0, 0, 0.9);
-  justify-content: center;
-  align-items: center;
-}
-.lightbox:target {
-  display: flex;
-}
-.lightbox img {
-  max-width: 90%;
-  max-height: 90%;
-  border-radius: 6px;
-}
-.lightbox-close {
-  position: absolute;
-  top: 20px;
-  right: 30px;
-  font-size: 32px;
-  color: white;
-  text-decoration: none;
-}
-</style>
 
-<div class="gallery">
-  <a href="#fc171"><img src="/images/fc17_1.jpg" alt="Photo 1" /></a>
-  <a href="#fc172"><img src="/images/fc17_2.jpg" alt="Photo 2" /></a>
-  <a href="#fc173"><img src="/images/fc17_3.jpg" alt="Photo 3" /></a>
-  <a href="#fc174"><img src="/images/fc17_4.jpg" alt="Photo 4" /></a>
-  <a href="#fc175"><img src="/images/fc17_5.jpg" alt="Photo 5" /></a>
-  <a href="#fc176"><img src="/images/fc17_6.jpg" alt="Photo 6" /></a>
+<div style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: center;">
+  <a href="/images/fc17_1.jpg"><img src="/images/fc17_1.jpg" alt="Photo 1" style="width: 32%; border-radius: 6px; height: auto; object-fit: contain;" /></a>
+  <a href="/images/fc17_2.jpg"><img src="/images/fc17_2.jpg" alt="Photo 2" style="width: 32%; border-radius: 6px; height: auto; object-fit: contain;" /></a>
+  <a href="/images/fc17_3.jpg"><img src="/images/fc17_3.jpg" alt="Photo 3" style="width: 32%; border-radius: 6px; height: auto; object-fit: contain;" /></a>
+  <a href="/images/fc17_4.jpg"><img src="/images/fc17_4.jpg" alt="Photo 4" style="width: 32%; border-radius: 6px; height: auto; object-fit: contain;" /></a>
+  <a href="/images/fc17_5.jpg"><img src="/images/fc17_5.jpg" alt="Photo 5" style="width: 32%; border-radius: 6px; height: auto; object-fit: contain;" /></a>
+  <a href="/images/fc17_6.jpg"><img src="/images/fc17_6.jpg" alt="Photo 6" style="width: 32%; border-radius: 6px; height: auto; object-fit: contain;" /></a>
 </div>
-
-<div id="fc171" class="lightbox"><a href="#" class="lightbox-close">&times;</a><img src="/images/fc17_1.jpg" alt="Photo 1" /></div>
-<div id="fc172" class="lightbox"><a href="#" class="lightbox-close">&times;</a><img src="/images/fc17_2.jpg" alt="Photo 2" /></div>
-<div id="fc173" class="lightbox"><a href="#" class="lightbox-close">&times;</a><img src="/images/fc17_3.jpg" alt="Photo 3" /></div>
-<div id="fc174" class="lightbox"><a href="#" class="lightbox-close">&times;</a><img src="/images/fc17_4.jpg" alt="Photo 4" /></div>
-<div id="fc175" class="lightbox"><a href="#" class="lightbox-close">&times;</a><img src="/images/fc17_5.jpg" alt="Photo 5" /></div>
-<div id="fc176" class="lightbox"><a href="#" class="lightbox-close">&times;</a><img src="/images/fc17_6.jpg" alt="Photo 6" /></div>
