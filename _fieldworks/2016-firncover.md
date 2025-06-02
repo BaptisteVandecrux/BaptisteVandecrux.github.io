@@ -11,20 +11,80 @@ The weather was relentless. At KAN-U, we were hit by whiteout conditions and hig
 
 When the skies cleared, we transitioned to the second phase of the campaign using a ski-equipped Twin Otter to reach remote sites including Crawford Point, Summit, and EastGRIP. At Summit, in a burst of calm weather and high efficiency, we managed to drill what may have been the fastest 16-meter firn core in history. Each site offered new challenges—cold fingers, flat light, shifting flight schedules—but also new insight into how Greenland’s snow and firn are changing. That field season didn’t just teach me polar science, it pulled me into it fully.
 
-
+```html
 <div style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: center;">
-  <a href="/images/fc16_1.jpg"><img src="/images/fc16_1.jpg" alt="Photo 1" style="width: 32%; border-radius: 6px; height: auto; object-fit: contain;" /></a>
-  <a href="/images/fc16_2.jpg"><img src="/images/fc16_2.jpg" alt="Photo 2" style="width: 32%; border-radius: 6px; height: auto; object-fit: contain;" /></a>
-  <a href="/images/fc16_3.jpg"><img src="/images/fc16_3.jpg" alt="Photo 3" style="width: 32%; border-radius: 6px; height: auto; object-fit: contain;" /></a>
-  <a href="/images/fc16_4.jpg"><img src="/images/fc16_4.jpg" alt="Photo 4" style="width: 32%; border-radius: 6px; height: auto; object-fit: contain;" /></a>
-  <a href="/images/fc16_5.jpg"><img src="/images/fc16_5.jpg" alt="Photo 5" style="width: 32%; border-radius: 6px; height: auto; object-fit: contain;" /></a>
-  <a href="/images/fc16_6.jpg"><img src="/images/fc16_6.jpg" alt="Photo 6" style="width: 32%; border-radius: 6px; height: auto; object-fit: contain;" /></a>
-  <a href="/images/fc16_7.jpg"><img src="/images/fc16_7.jpg" alt="Photo 7" style="width: 100%; border-radius: 6px; height: auto; object-fit: contain;" /></a>
-  <a href="/images/fc16_8.jpg"><img src="/images/fc16_8.jpg" alt="Photo 8" style="width: 32%; border-radius: 6px; height: auto; object-fit: contain;" /></a>
-  <a href="/images/fc16_11.jpg"><img src="/images/fc16_11.jpg" alt="Photo 11" style="width: 32%; border-radius: 6px; height: auto; object-fit: contain;" /></a>
-  <a href="/images/fc16_12.jpg"><img src="/images/fc16_12.jpg" alt="Photo 12" style="width: 32%; border-radius: 6px; height: auto; object-fit: contain;" /></a>
-  <a href="/images/fc16_9.jpg"><img src="/images/fc16_9.jpg" alt="Photo 9" style="width: 48%; border-radius: 6px; height: auto; object-fit: contain;" /></a>
-  <a href="/images/fc16_10.jpg"><img src="/images/fc16_10.jpg" alt="Photo 10" style="width: 48%; border-radius: 6px; height: auto; object-fit: contain;" /></a>
+
+  <div style="flex: 1 1 50%; max-width: 52%; display: flex; align-items: center; justify-content: center;">
+    <a href="/images/fc16_1.jpg">
+      <img src="/images/fc16_1.jpg" alt="Photo 1" style="width: 100%; border-radius: 6px; height: auto; object-fit: contain;" />
+    </a>
+  </div>
+  <div style="flex: 1 1 50%; max-width: 52%; display: flex; align-items: center; justify-content: center;">
+    <a href="/images/fc16_5.jpg">
+      <img src="/images/fc16_5.jpg" alt="Photo 5" style="width: 100%; border-radius: 6px; height: auto; object-fit: contain;" />
+    </a>
+  </div>
+
+  <div style="flex: 1 1 30%; max-width: 32%; display: flex; align-items: center; justify-content: center;">
+    <a href="/images/fc16_3.jpg">
+      <img src="/images/fc16_3.jpg" alt="Photo 3" style="width: 100%; border-radius: 6px; height: auto; object-fit: contain;" />
+    </a>
+  </div>
+
+  <div style="flex: 1 1 30%; max-width: 32%; display: flex; align-items: center; justify-content: center;">
+    <a href="/images/fc16_4.jpg">
+      <img src="/images/fc16_4.jpg" alt="Photo 4" style="width: 100%; border-radius: 6px; height: auto; object-fit: contain;" />
+    </a>
+  </div>
+
+
+
+  <div style="flex: 1 1 30%; max-width: 32%; display: flex; align-items: center; justify-content: center;">
+    <a href="/images/fc16_2.jpg">
+      <img src="/images/fc16_2.jpg" alt="Photo 2" style="width: 100%; border-radius: 6px; height: auto; object-fit: contain;" />
+    </a>
+  </div>
+
+
+
+  <div style="flex: 1 1 100%; max-width: 100%; display: flex; align-items: center; justify-content: center;">
+    <a href="/images/fc16_7.jpg">
+      <img src="/images/fc16_7.jpg" alt="Photo 7" style="width: 100%; border-radius: 6px; height: auto; object-fit: contain;" />
+    </a>
+  </div>
+  
+  <div style="flex: 1 1 30%; max-width: 32%; display: flex; align-items: center; justify-content: center;">
+    <a href="/images/fc16_8.jpg">
+      <img src="/images/fc16_8.jpg" alt="Photo 8" style="width: 100%; border-radius: 6px; height: auto; object-fit: contain;" />
+    </a>
+  </div>
+
+  <div style="flex: 1 1 30%; max-width: 32%; display: flex; align-items: center; justify-content: center;">
+    <a href="/images/fc16_11.jpg">
+      <img src="/images/fc16_11.jpg" alt="Photo 11" style="width: 100%; border-radius: 6px; height: auto; object-fit: contain;" />
+    </a>
+  </div>
+
+  <div style="flex: 1 1 30%; max-width: 32%; display: flex; align-items: center; justify-content: center;">
+    <a href="/images/fc16_12.jpg">
+      <img src="/images/fc16_12.jpg" alt="Photo 12" style="width: 100%; border-radius: 6px; height: auto; object-fit: contain;" />
+    </a>
+  </div>
+
+  <div style="flex: 1 1 50%; max-width: 52%; display: flex; align-items: center; justify-content: center;">
+    <a href="/images/fc16_9.jpg">
+      <img src="/images/fc16_9.jpg" alt="Photo 9" style="width: 100%; border-radius: 6px; height: auto; object-fit: contain;" />
+    </a>
+  </div>
+
+  <div style="flex: 1 1 50%; max-width: 52%; display: flex; align-items: center; justify-content: center;">
+    <a href="/images/fc16_10.jpg">
+      <img src="/images/fc16_10.jpg" alt="Photo 10" style="width: 100%; border-radius: 6px; height: auto; object-fit: contain;" />
+    </a>
+  </div>
+
 </div>
+```
+
 
 
