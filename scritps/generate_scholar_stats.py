@@ -45,7 +45,7 @@ fig.update_layout(
 pio.write_html(fig, file=OUT_PLOT_HTML, full_html=False, include_plotlyjs='cdn')
 
 # Publication stats (manual fallback if parsing fails)
-n_papers = 22
+n_papers = 28
 first_author_count = 8
 
 # WRITE MARKDOWN BOX
