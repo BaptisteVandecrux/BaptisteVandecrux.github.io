@@ -5,8 +5,7 @@ permalink: /code/2024-06-01-GEUS-SEB-Firn-Model
 excerpt: 'Matlab scripts to simulate surface energy fluxes and firn evolution on the Greenland ice sheet.'
 date: 2024-06-01
 venue: 'GitHub'
-paperurl: 'https://github.com/BaptisteVandecrux/SEB_Firn_model'
-citation: 'Vandecrux B. GEUS Surface Energy Balance and Firn Model. GitHub, 2024.'
+citation: 'Vandecrux B. GEUS Surface Energy Balance and Firn Model. GitHub, [https://github.com/BaptisteVandecrux/SEB_Firn_model](https://github.com/BaptisteVandecrux/SEB_Firn_model) 2024.'
 ---
 
 Access [Python](https://github.com/GEUS-Glaciology-and-Climate/GEUS-SEB-firn-model){:target="_blank"} or [Matlab](https://github.com/BaptisteVandecrux/SEB_Firn_model){:target="_blank"} code on GitHub.

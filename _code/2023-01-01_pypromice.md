@@ -4,8 +4,7 @@ collection: code
 permalink: /code/pypromice
 excerpt: 'Python package for processing PROMICE and GC-Net automated weather station data.'
 date: 2024-06-01
-paperurl: 'https://doi.org/10.21105/joss.05298'
-citation: 'How et al., pypromice: A Python package for processing automated weather station data, JOSS, 2023. https://doi.org/10.21105/joss.05298'
+citation: 'How et al., pypromice: A Python package for processing automated weather station data, JOSS, [https://doi.org/10.21105/joss.05298](https://doi.org/10.21105/joss.05298), 2023.'
 ---
 
 <a href="https://github.com/GEUS-Glaciology-and-Climate/pypromice" target="_blank" style="display: inline-flex; align-items: center; gap: 8px;">
