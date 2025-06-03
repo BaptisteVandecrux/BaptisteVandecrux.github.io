@@ -14,6 +14,7 @@ redirect_from:
 ### Since 2019 – Researcher, Geological Survey of Denmark and Greenland (GEUS), Copenhagen
 - **[Water Under Snow Cover ESA CCI Fellowship](https://climate.esa.int/en/about-us-new/fellowships/esa-cci-research-fellowship-Baptiste-Vandecrux/)**: Remote sensing of liquid water under the Greenland ice sheet.
 - **[GC-Net and PROMICE](https://promice.org/)**: AWS deployment, station maintenance, data analysis. PIs: Robert S. Fausto, Andreas Ahlstrøm.
+- **[LiquidIce](https://eu-liquidice.eu/)**: Instrument deployment on the ice sheet, development of novel data processing. GEUS PI: Andreas Ahlstrøm.
 - **Thawing Mountains**: Snow cover impact on permafrost temperatures. PI: Michele Citterio.
 - **Hydropower Investigations in Southwest Greenland**. PI: Kristian K. Kjeldsen.
 - **[SICE (Sentinel-3)](https://snow.geus.dk/)**: Snow characteristics retrieval. PI: Jason E. Box.
