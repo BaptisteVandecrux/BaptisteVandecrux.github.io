@@ -5,5 +5,5 @@ permalink: /datasets/2022-01-01-Camp-Century-Simulations-of-firn-evolut
 excerpt: ' '
 date: 2022-01-01
 venue: 'GEUS Dataverse'
-citation: ' Vandecrux B,  Colgan W, &quot;Camp Century: Simulations of firn evolution 1966-2100.&quot; GEUS Dataverse, <a href="https://doi.org/10.22008/FK2/QDND53,">https://doi.org/10.22008/FK2/QDND53,</a> 2022.'
+citation: ' Vandecrux B,  Colgan W, &quot;Camp Century: Simulations of firn evolution 1966-2100.&quot; GEUS Dataverse, <a href="https://doi.org/10.22008/FK2/QDND53">https://doi.org/10.22008/FK2/QDND53</a>, 2022.'
 ---
