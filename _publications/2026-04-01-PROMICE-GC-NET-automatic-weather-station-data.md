@@ -1,5 +1,5 @@
 ---
-title: "PROMICE | GC-NET automatic weather station data"
+title: "PROMICE \| GC-NET automatic weather station data"
 collection: publications
 permalink: /publications/2026-01-01-PROMICE-GC-NET-automatic-weather-station-data
 excerpt: ' '
