@@ -3,8 +3,8 @@
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Google_Scholar_logo.svg/512px-Google_Scholar_logo.svg.png" alt="Google Scholar" width="28" height="28" />
 <a href="https://scholar.google.dk/citations?user=Mt24kfgAAAAJ" target="_blank"><strong>View my Google Scholar profile</strong></a>
 </div>
-<strong>Total publications:</strong> 28<br/>
-<strong>First author publications:</strong> 8<br/>
-<strong>Total citations:</strong> 1149<br/>
+<strong>Total publications:</strong> 31<br/>
+<strong>First author publications:</strong> 9<br/>
+<strong>Total citations:</strong> 1468<br/>
 {% include citations_plot.html %}
 </div>

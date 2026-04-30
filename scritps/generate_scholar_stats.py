@@ -23,8 +23,10 @@ if not citations_by_year:
         2021: 170,
         2022: 212,
         2023: 217,
-        2024: 244,
-        2025: 96
+        2024: 265,
+        2025: 284,
+        2026: 119,
+        
     }
     # known_sum = sum(citations_by_year.values())
     # citations_by_year[2025] = max(0, total_citations - known_sum)
@@ -45,8 +47,8 @@ fig.update_layout(
 pio.write_html(fig, file=OUT_PLOT_HTML, full_html=False, include_plotlyjs='cdn')
 
 # Publication stats (manual fallback if parsing fails)
-n_papers = 28
-first_author_count = 8
+n_papers = 31
+first_author_count = 9
 
 # WRITE MARKDOWN BOX
 with open(OUT_MD, "w") as f:
