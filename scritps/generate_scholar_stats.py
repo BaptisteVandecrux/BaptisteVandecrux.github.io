@@ -54,7 +54,7 @@ first_author_count = 9
 with open(OUT_MD, "w") as f:
     f.write('<div style="border: 1px solid #ccc; border-radius: 6px; padding: 12px 16px; background: #f9f9f9; max-width: 560px; margin-bottom: 2em;">\n')
     f.write('<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 0.5em;">\n')
-    f.write('<img src="https://commons.wikimedia.org/wiki/File:Google_Scholar_logo.svg" alt="" width="28" height="28" />\n')
+    f.write('<i class="fas fa-fw fa-graduation-cap" aria-hidden="true" style="font-size: 22px;"></i>\n')
     f.write('<a href="https://scholar.google.dk/citations?user=Mt24kfgAAAAJ" target="_blank"><strong>View my Google Scholar profile</strong></a>\n')
     f.write('</div>\n')
     f.write(f"<strong>Total publications:</strong> {n_papers}<br/>\n")
