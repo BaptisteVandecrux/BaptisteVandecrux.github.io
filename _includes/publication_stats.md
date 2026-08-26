@@ -3,8 +3,9 @@
 <i class="fas fa-fw fa-graduation-cap" aria-hidden="true" style="font-size: 22px;"></i>
 <a href="https://scholar.google.dk/citations?user=Mt24kfgAAAAJ" target="_blank"><strong>View my Google Scholar profile</strong></a>
 </div>
-<strong>Total publications:</strong> 31<br/>
+<strong>Total publications:</strong> {{ site.publications.size }}<br/>
 <strong>First author publications:</strong> 9<br/>
-<strong>Total citations:</strong> 1468<br/>
+<strong>Total citations:</strong> 1573<br/>
+<strong>h-index:</strong> 20<br/>
 {% include citations_plot.html %}
 </div>

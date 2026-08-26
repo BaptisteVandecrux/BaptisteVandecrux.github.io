@@ -11,22 +11,23 @@ OUT_PLOT_HTML = "../_includes/citations_plot.html"
 
 # GET AUTHOR DATA
 author = scholarly.search_author_id(AUTHOR_ID, filled=True)
-total_citations = author.get('citedby', 0)
+total_citations = author.get('citedby', 0) or 1573
+hindex = author.get('hindex', 0) or 20
+i10index = author.get('i10index', 0) or 28
 
 # CITATIONS BY YEAR
 citations_by_year = author.get('citedby_year', {})
 if not citations_by_year:
     citations_by_year = {
-        2018: 30,
-        2019: 49,
-        2020: 107,
-        2021: 170,
-        2022: 212,
-        2023: 217,
-        2024: 265,
+        2019: 70,
+        2020: 145,
+        2021: 200,
+        2022: 209,
+        2023: 228,
+        2024: 251,
         2025: 284,
-        2026: 119,
-        
+        2026: 186,
+
     }
     # known_sum = sum(citations_by_year.values())
     # citations_by_year[2025] = max(0, total_citations - known_sum)
@@ -46,8 +47,10 @@ fig.update_layout(
 # Save interactive plot as snippet
 pio.write_html(fig, file=OUT_PLOT_HTML, full_html=False, include_plotlyjs='cdn')
 
-# Publication stats (manual fallback if parsing fails)
-n_papers = 31
+# Publication stats
+# n_papers is NOT hardcoded here: it's rendered as a Jekyll Liquid tag
+# ({{ site.publications.size }}) so it always matches the number of files
+# in _publications/ and can't silently drift out of sync again.
 first_author_count = 9
 
 # WRITE MARKDOWN BOX
@@ -57,8 +60,10 @@ with open(OUT_MD, "w") as f:
     f.write('<i class="fas fa-fw fa-graduation-cap" aria-hidden="true" style="font-size: 22px;"></i>\n')
     f.write('<a href="https://scholar.google.dk/citations?user=Mt24kfgAAAAJ" target="_blank"><strong>View my Google Scholar profile</strong></a>\n')
     f.write('</div>\n')
-    f.write(f"<strong>Total publications:</strong> {n_papers}<br/>\n")
+    f.write("<strong>Total publications:</strong> {{ site.publications.size }}<br/>\n")
     f.write(f"<strong>First author publications:</strong> {first_author_count}<br/>\n")
     f.write(f"<strong>Total citations:</strong> {total_citations}<br/>\n")
+    f.write(f"<strong>h-index:</strong> {hindex}<br/>\n")
+    f.write(f"<strong>i10-index:</strong> {i10index}<br/>\n")
     f.write('{% include citations_plot.html %}\n')
     f.write('</div>\n')
