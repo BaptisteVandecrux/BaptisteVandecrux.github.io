@@ -2,7 +2,7 @@
 title: "Liquid Water Flow and Retention on the Greenland Ice Sheet in the Regional Climate Model HIRHAM5: Local and Large-Scale Impacts"
 collection: publications
 permalink: /publications/2017-01-01-Liquid-Water-Flow-and-Retention-on-the-
-excerpt: ' '
+excerpt: "Adds a liquid water flow and retention scheme to the HIRHAM5 regional climate model and examines its local and large-scale impact on Greenland ice sheet runoff."
 date: 2017-01-01
 venue: 'Frontiers in Earth Science'
 citation: 'Langen P.,  Fausto R.,  Vandecrux B.,  Mottram R.,  Box J.: &quot;Liquid Water Flow and Retention on the Greenland Ice Sheet in the Regional Climate Model HIRHAM5: Local and Large-Scale Impacts.&quot; Frontiers in Earth Science, <a href="http://doi.org/10.3389/feart.2016.00110">http://doi.org/10.3389/feart.2016.00110</a>, 2017.'

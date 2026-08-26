@@ -2,7 +2,7 @@
 title: "Firn Evolution at Camp Century, Greenland: 1966–2100"
 collection: publications
 permalink: /publications/2021-03-01-Firn-Evolution-at-Camp-Century-Greenlan
-excerpt: ' '
+excerpt: "Models firn evolution at Camp Century from 1966 to 2100 to track how deep the site's buried Cold War-era waste is likely to remain."
 date: 2021-03-01
 venue: 'Frontiers in Earth Science'
 citation: ' Vandecrux B,  Colgan W,  Solgaard A,  Steffensen J,  Karlsson N, &quot;Firn Evolution at Camp Century, Greenland: 1966–2100.&quot; Frontiers in Earth Science, <a href="http://doi.org/10.3389/feart.2021.578978">http://doi.org/10.3389/feart.2021.578978</a>, 2021.'
