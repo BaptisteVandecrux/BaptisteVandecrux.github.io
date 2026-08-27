@@ -118,15 +118,40 @@ def load_existing_posts():
 def main():
     api = build_linkedin_client()
 
+    # Check authentication with a plain profile lookup first, separately
+    # from get_profile_posts, so a failure here vs. there tells us whether
+    # the problem is the session itself or something specific to the
+    # posts endpoint/response shape.
+    try:
+        profile = api.get_profile(public_id=PUBLIC_ID)
+    except Exception as exc:  # noqa: BLE001 -- surfacing the real cause matters more here
+        raise SystemExit(
+            "A basic authenticated profile lookup failed -- this points to "
+            "the session cookies themselves (expired, mismatched, or "
+            "LinkedIn blocking the request) rather than anything specific "
+            "to fetching posts. Refresh LINKEDIN_LI_AT / LINKEDIN_JSESSIONID "
+            f"(see the setup instructions at the top of this file). "
+            f"Original error: {exc!r}"
+        ) from exc
+
+    if not profile:
+        raise SystemExit(
+            "Authenticated profile lookup returned nothing -- LinkedIn is "
+            "likely serving a challenge/restricted response instead of real "
+            "data. Try refreshing LINKEDIN_LI_AT / LINKEDIN_JSESSIONID from "
+            "a fresh, active browser session."
+        )
+
+    print(f"Authenticated OK -- profile lookup returned {len(profile)} field(s).")
+
     try:
         raw_posts = api.get_profile_posts(public_id=PUBLIC_ID, post_count=POST_COUNT)
     except Exception as exc:  # noqa: BLE001 -- surfacing the real cause matters more here
         raise SystemExit(
-            "Fetching posts failed -- this is most likely an expired session "
-            "cookie (refresh LINKEDIN_LI_AT / LINKEDIN_JSESSIONID in the "
-            "repo's Actions secrets, see the setup instructions at the top "
-            f"of this file) or a change in linkedin-api's response shape. "
-            f"Original error: {exc!r}"
+            "Authentication is fine (profile lookup above succeeded), but "
+            "fetching posts specifically failed -- this points to a change "
+            "in linkedin-api's get_profile_posts response shape rather than "
+            f"an auth problem. Original error: {exc!r}"
         ) from exc
 
     posts = load_existing_posts()
