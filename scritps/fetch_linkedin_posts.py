@@ -39,6 +39,7 @@ import os
 import re
 from datetime import date
 
+import requests
 import yaml
 from linkedin_api import Linkedin
 
@@ -48,14 +49,30 @@ POST_COUNT = 30
 
 DATA_HEADER = """# List of LinkedIn posts/reposts featured on /news/.
 #
-# Entries are added automatically either by fetch_linkedin_posts.py
-# (scheduled scrape) or by pasting a URL into
-# _data/linkedin_posts_queue.txt. Don't edit this file by hand unless
-# you're fixing a bad entry -- your changes will otherwise just be
-# merged with whatever the next automated run finds.
+# Entries are added automatically two ways:
+#   - a daily scheduled scrape (scritps/fetch_linkedin_posts.py, see
+#     .github/workflows/fetch_linkedin_posts.yml)
+#   - pasting a URL into _data/linkedin_posts_queue.txt as a manual
+#     fallback (scritps/process_linkedin_queue.py, see
+#     .github/workflows/process_linkedin_queue.yml)
+#
+# Don't edit this file by hand unless fixing a bad entry -- routine
+# changes will just get merged with the next automated run.
 """
 
 ACTIVITY_ID_RE = re.compile(r"urn:li:(?:activity|share|ugcPost):(\d+)")
+
+
+def build_cookie_jar(li_at, jsessionid):
+    """
+    linkedin-api expects a real cookie jar object here (it calls jar
+    methods like `extract_cookies` internally) -- a plain dict fails
+    with "'dict' object has no attribute 'extract_cookies'".
+    """
+    jar = requests.cookies.RequestsCookieJar()
+    jar.set("li_at", li_at, domain=".www.linkedin.com", path="/")
+    jar.set("JSESSIONID", jsessionid, domain=".www.linkedin.com", path="/")
+    return jar
 
 
 def build_linkedin_client():
@@ -64,7 +81,7 @@ def build_linkedin_client():
     return Linkedin(
         username="",
         password="",
-        cookies={"li_at": li_at, "JSESSIONID": jsessionid},
+        cookies=build_cookie_jar(li_at, jsessionid),
     )
 
 
