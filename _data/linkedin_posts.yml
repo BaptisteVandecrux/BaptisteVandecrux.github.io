@@ -1,0 +1,11 @@
+# List of LinkedIn posts/reposts featured on /news/.
+#
+# Entries are added automatically two ways:
+#   - a daily scheduled scrape (scritps/fetch_linkedin_posts.py, see
+#     .github/workflows/fetch_linkedin_posts.yml)
+#   - pasting a URL into _data/linkedin_posts_queue.txt as a manual
+#     fallback (scritps/process_linkedin_queue.py, see
+#     .github/workflows/process_linkedin_queue.yml)
+#
+# Don't edit this file by hand unless fixing a bad entry -- routine
+# changes will just get merged with the next automated run.

@@ -1,0 +1,9 @@
+# Paste LinkedIn post URLs here, one per line, whenever you want a new
+# post added to https://baptistevandecrux.github.io/news/
+#
+# Example:
+# https://www.linkedin.com/posts/baptiste-vandecrux_some-post-activity-7123456789012345678-abCd
+#
+# A GitHub Action picks these up automatically, converts them into the
+# format the News page needs, appends them to linkedin_posts.yml, and
+# clears this file. Nothing else needs to change by hand.
