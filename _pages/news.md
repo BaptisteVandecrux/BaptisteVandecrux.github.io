@@ -5,7 +5,6 @@ permalink: /news/
 author_profile: true
 ---
 
-A feed of my posts and reposts from LinkedIn.
 
 {% assign posts = site.data.linkedin_posts %}
 
