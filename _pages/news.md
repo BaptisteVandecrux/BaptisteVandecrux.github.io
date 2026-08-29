@@ -10,7 +10,7 @@ A feed of my posts and reposts from LinkedIn.
 {% assign posts = site.data.linkedin_posts %}
 
 {% if posts and posts.size > 0 %}
-{% assign posts = posts | sort: "date" | reverse %}
+{% assign posts = posts | sort: "id" | reverse %}
 <div style="display: flex; flex-wrap: wrap; gap: 16px; justify-content: center;">
   {% for post in posts %}
   <div style="flex: 1 1 400px; max-width: 504px;">

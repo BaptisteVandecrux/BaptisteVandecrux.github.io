@@ -106,6 +106,18 @@ def extract_urn(post):
     return None
 
 
+def urn_id(urn):
+    """
+    The numeric id in a LinkedIn activity URN encodes a timestamp (like a
+    Twitter/Discord snowflake id), so a bigger number means a more recent
+    post. Stored alongside the urn so the News page can sort by it
+    directly instead of relying on whatever date a post happened to be
+    added to this file.
+    """
+    match = re.search(r"(\d+)$", urn)
+    return int(match.group(1)) if match else 0
+
+
 def load_existing_posts():
     try:
         with open(DATA_FILE, "r", encoding="utf-8") as f:
@@ -164,13 +176,20 @@ def main():
         urn = extract_urn(raw_post)
         if urn is None or urn in known_urns:
             continue
-        posts.append({"urn": urn, "date": today})
+        posts.append({"urn": urn, "id": urn_id(urn), "date": today})
         known_urns.add(urn)
         added.append(urn)
 
     if not added:
         print("No new posts found.")
         return
+
+    # Backfill `id` on any older entries that predate this field, and keep
+    # the file itself sorted newest-first for readability.
+    for post in posts:
+        if isinstance(post, dict) and "id" not in post and "urn" in post:
+            post["id"] = urn_id(post["urn"])
+    posts.sort(key=lambda p: p.get("id", 0), reverse=True)
 
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         f.write(DATA_HEADER)
