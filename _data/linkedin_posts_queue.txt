@@ -7,3 +7,29 @@
 # A GitHub Action picks these up automatically, converts them into the
 # format the News page needs, appends them to linkedin_posts.yml, and
 # clears this file. Nothing else needs to change by hand.
+
+https://www.linkedin.com/posts/baptiste-vandecrux-962bba40_greenland-liquidice-kangerlussuaq-activity-7495843761541988352-Zezk?utm_source=share&utm_medium=member_android&rcm=ACoAAAi4h9oBj5WWligQA4hsxBO_xMHhrAqsTj4
+
+
+https://www.linkedin.com/posts/liquidice_greenlandnationalday-greenland-liquidice-ugcPost-7473719221554970625-Y07l?utm_source=share&utm_medium=member_android&rcm=ACoAAAi4h9oBj5WWligQA4hsxBO_xMHhrAqsTj4
+
+https://www.linkedin.com/posts/baptiste-vandecrux-962bba40_vil-du-arbejde-med-klimastationer-p%C3%A5-gr%C3%B8nlands-activity-7465455437807583232-WhML?utm_source=share&utm_medium=member_android&rcm=ACoAAAi4h9oBj5WWligQA4hsxBO_xMHhrAqsTj4
+
+https://www.linkedin.com/posts/robert-fausto-06a4367_geus-promice-greenland-ugcPost-7461671551520813056-Jyxc?utm_source=share&utm_medium=member_android&rcm=ACoAAAi4h9oBj5WWligQA4hsxBO_xMHhrAqsTj4
+
+
+https://www.linkedin.com/posts/robert-fausto-06a4367_geus-gcnet-fieldwork-ugcPost-7458263158403731456-xNpT?utm_source=share&utm_medium=member_android&rcm=ACoAAAi4h9oBj5WWligQA4hsxBO_xMHhrAqsTj4
+https://www.linkedin.com/posts/baptiste-vandecrux-962bba40_climatedata-openscience-cryosphere-activity-7453106171810447360-0DNb?utm_source=share&utm_medium=member_android&rcm=ACoAAAi4h9oBj5WWligQA4hsxBO_xMHhrAqsTj4
+
+https://www.linkedin.com/posts/baptiste-vandecrux-962bba40_ciresphotocontest-fieldworkfriday-activity-7452000665125654528-IikB?utm_source=share&utm_medium=member_android&rcm=ACoAAAi4h9oBj5WWligQA4hsxBO_xMHhrAqsTj4
+https://www.linkedin.com/posts/baptiste-vandecrux-962bba40_data-are-the-building-blocks-of-science-activity-7447177601867177984-4jLF?utm_source=share&utm_medium=member_android&rcm=ACoAAAi4h9oBj5WWligQA4hsxBO_xMHhrAqsTj4
+https://www.linkedin.com/posts/baptiste-vandecrux-962bba40_expedition-sila-activity-7441825851286933504-MBJp?utm_source=share&utm_medium=member_android&rcm=ACoAAAi4h9oBj5WWligQA4hsxBO_xMHhrAqsTj4
+https://www.linkedin.com/posts/baptiste-vandecrux-962bba40_new-study-alert-how-much-snow-falls-on-activity-7435658569007591424-SgMM?utm_source=share&utm_medium=member_android&rcm=ACoAAAi4h9oBj5WWligQA4hsxBO_xMHhrAqsTj4
+
+https://www.linkedin.com/posts/andreasahlstrom_we-are-pleased-to-share-key-advancements-ugcPost-7434152615451459584-8jGe?utm_source=share&utm_medium=member_android&rcm=ACoAAAi4h9oBj5WWligQA4hsxBO_xMHhrAqsTj4
+https://www.linkedin.com/posts/glaciology-and-climate-geus_estimating-the-upper-depth-of-subsurface-activity-7417483285536342016-yh25?utm_source=share&utm_medium=member_android&rcm=ACoAAAi4h9oBj5WWligQA4hsxBO_xMHhrAqsTj4
+https://www.linkedin.com/posts/baptiste-vandecrux-962bba40_the-more-melt-the-more-trouble-at-least-activity-6740193464694120448-vttO?utm_source=share&utm_medium=member_android&rcm=ACoAAAi4h9oBj5WWligQA4hsxBO_xMHhrAqsTj4
+
+
+
+
