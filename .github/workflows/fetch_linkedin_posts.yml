@@ -8,8 +8,11 @@ name: Fetch LinkedIn Posts
 # the top of that script before relying on this.
 
 on:
-  schedule:
-    - cron: "0 6 * * *" # once a day
+  # Scheduled run disabled -- the LINKEDIN_LI_AT/JSESSIONID session cookies
+  # have expired, so this was failing daily. Refresh the secrets (see the
+  # setup notes atop scritps/fetch_linkedin_posts.py), then re-add:
+  #   schedule:
+  #     - cron: "0 6 * * *" # once a day
   workflow_dispatch:
 
 jobs:
